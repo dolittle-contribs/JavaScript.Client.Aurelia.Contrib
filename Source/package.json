@@ -1,0 +1,54 @@
+{
+  "name": "@dolittle/aurelia.contrib",
+  "version": "0.0.1",
+  "description": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/commonjs/index.js",
+  "module": "dist/esmodule/index.js",
+  "jspm": {
+    "registry": "npm",
+    "jspmPackage": true,
+    "format": "amd",
+    "main": "index",
+    "directories": {
+      "dist": "dist/systemjs"
+    },
+    "dependencies": {
+      "aurelia-bootstrapper": "^2.2.0",
+      "@dolittle/commands": "^1.0.6",
+      "@dolittle/core": "^1.0.2",
+      "@dolittle/queries": "^1.0.7"
+    }
+  },
+  "scripts": {
+    "build": "gulp build",
+    "prepublish": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dolittle-contribs/javascript.client.aurelia.contrib.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dolittle-contribs/javascript.client.aurelia.contrib/issues"
+  },
+  "homepage": "https://github.com/dolittle-contribs/javascript.client.aurelia.contrib#readme",
+  "dependencies": {
+    "aurelia-bootstrapper": "^2.3.3",
+    "@dolittle/commands": "^1.0.13",
+    "@dolittle/core": "^1.0.5",
+    "@dolittle/queries": "^1.0.14"
+  },
+  "devDependencies": {
+    "@dolittle/build": "^6.3.4",
+    "@dolittle/build.aurelia": "^3.3.0",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "files": [
+    "dist"
+  ]
+}
