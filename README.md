@@ -2,12 +2,24 @@
 
 This project serves as a place to experiment and play with practical shared functionality that augments the JavaScript.Client.Aurelia package and exposes practical shared building blocks that makes developing Auralia applications easier.
 
-## More details
+## Using
 
-To learn more about the projects of Dolittle and how to contribute, please go [here](https://github.com/dolittle/Home).
+Add a dependency to this package:
 
-## Getting Started
+```shell
+$ npm i @dolittle/aurelia.contrib
+```
 
-Go to our [documentation site](http://www.dolittle.io) and learn more about the project and how to get started.
-Samples can also be found [here](https://github.com/Dolittle-Samples).
-You can find entropy projects [here](https://github.com/Dolittle-Entropy).
+...or
+
+```shell
+$ yarn add @dolittle/aurelia.contrib
+```
+
+In your Aurelia setup (`main.js`):
+
+```javascript
+aurelia.use.plugin(PLATFORM.moduleName('@dolittle/aurelia.contrib');
+```
+
+For more details on using or contributing, read our documentation [here](./Documentation)
