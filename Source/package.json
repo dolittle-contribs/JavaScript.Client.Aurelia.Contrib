@@ -37,10 +37,12 @@
   },
   "homepage": "https://github.com/dolittle-contribs/javascript.client.aurelia.contrib#readme",
   "dependencies": {
-    "aurelia-bootstrapper": "^2.3.3",
     "@dolittle/commands": "^1.0.13",
     "@dolittle/core": "^1.0.5",
-    "@dolittle/queries": "^1.0.14"
+    "@dolittle/queries": "^1.0.14",
+    "aurelia-bootstrapper": "^2.3.3",
+    "moment": "^2.24.0",
+    "numeral": "^2.0.6"
   },
   "devDependencies": {
     "@dolittle/build": "^6.3.4",
