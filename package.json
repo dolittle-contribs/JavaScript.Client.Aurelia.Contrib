@@ -1,7 +1,8 @@
 {
     "private": true,
     "workspaces": [
-        "Source"
+        "Source",
+        "Playground"
     ],
     "scripts": {
         "build": "gulp build"
