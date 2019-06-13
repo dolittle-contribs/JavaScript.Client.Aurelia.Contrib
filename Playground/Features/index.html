@@ -7,5 +7,25 @@
 <template>
   <require from="./index.scss"></require>
   <section class="content">
+    <section class="arrays">
+      <h2>Arrays</h2>
+      <table>
+        <thead>
+          <th>Input</th>
+          <th>Options</th>
+          <th>Output</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="3" class="value-converter">firstElement</td>
+          </tr>
+          <tr>
+            <td>[0,1,2,3,4,5]</td>
+            <td></td>
+            <td>${[0,1,2,3,4,5] | firstElement}</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
   </section>
 </template>
