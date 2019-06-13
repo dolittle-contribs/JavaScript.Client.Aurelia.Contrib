@@ -27,5 +27,7 @@
   "dependencies": {
     "@dolittle/aurelia": "^1.0.15",
     "@dolittle/styles": "^3.0.2",
+    "moment": "^2.24.0",
+    "numeral": "^2.0.6"
   }
 }

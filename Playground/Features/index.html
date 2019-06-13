@@ -27,5 +27,40 @@
         </tbody>
       </table>
     </section>
+    <section class="dates">
+      <h2>Dates</h2>
+      <table>
+        <thead>
+          <th>Input</th>
+          <th>Options</th>
+          <th>Output</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="3" class="value-converter">date</td>
+          </tr>
+          <tr>
+            <td>${today.toString()}</td>
+            <td> </td>
+            <td>${today | date}</td>
+          </tr>
+          <tr>
+            <td>${today.toString()}</td>
+            <td>dddd, MMMM Do YYYY, h:mm:ss a</td>
+            <td>${today | date:"dddd, MMMM Do YYYY, h:mm:ss a"}</td>
+          </tr>
+          <tr>
+            <td>${today.toString()}</td>
+            <td>ddd, hA</td>
+            <td>${today | date:"ddd, hA"}</td>
+          </tr>
+          <tr>
+            <td>${today.toString()}</td>
+            <td>YYYY MM DD</td>
+            <td>${today | date:"YYYY MM DD"}</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
   </section>
 </template>
