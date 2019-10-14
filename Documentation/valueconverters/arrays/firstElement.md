@@ -3,6 +3,7 @@ title: firstElement
 description: About the firstElement Value Converter for arrays
 keywords: aurelia, contrib, value converter, firstElement, array
 author: pavsaund
+aliases: /interaction/aurelia/javascript.client.aurelia.contrib/valueconverters/firstelement
 ---
 
 JavaScript:
