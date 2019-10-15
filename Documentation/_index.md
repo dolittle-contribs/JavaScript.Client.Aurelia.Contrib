@@ -4,4 +4,5 @@ description: Get an overview over the helpers available in the Aurelia Contrib p
 keywords: aurelia, contrib
 author: pavsaund
 repository: https://github.com/dolittle-contribs/JavaScript.Client.Aurelia.Contrib
+aliases: /interaction/aurelia/javascript.client.aurelia.contrib/
 ---
